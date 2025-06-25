@@ -1,1 +1,1 @@
-# fastapi-skeleton
+# FastAPI Skeleton Template
