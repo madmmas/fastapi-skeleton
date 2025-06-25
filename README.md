@@ -11,6 +11,19 @@ poetry install --no-root
 poetry run pytest tests/integration
 ```
 
+### Code Quality Check
+```
+poetry run flake8 .
+
+poetry run black . --check
+
+poetry run isort . --check-only --profile black
+
+poetry run bandit .
+
+poetry run safety scan
+```
+
 ## Run in docker
 
 ### Generate requirements.txt file
